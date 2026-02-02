@@ -4,7 +4,7 @@
 # This program allows the user to order items from a delivery service
 
 
-print ("Welcome to Zeke's Cookie Delivery Service!")
+print ("Welcome to Andrew's Cookie Delivery Service!")
 print ("Let's put an order together for you. What would you like?")
 
 purchases = []
@@ -51,5 +51,6 @@ if reply == "Y":
     print ("The cost after your savings is: $ " + str(round(discountCost,2)))
 else:
     print ("The cost after your savings is: $ " + str(round(totalCost,2)))
+
 
 
